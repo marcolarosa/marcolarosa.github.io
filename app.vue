@@ -1,3 +1,5 @@
 <template>
-    <div><NuxtPage /></div>
+    <div class="w-full">
+        <NuxtPage />
+    </div>
 </template>
