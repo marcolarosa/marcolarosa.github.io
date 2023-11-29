@@ -1,6 +1,7 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
     pages: true,
-    devtools: { enabled: true },
-    modules: ["@nuxtjs/tailwindcss"],
+    devtools: { enabled: false },
+    modules: ["@nuxtjs/tailwindcss", "@nuxt/image"],
+    image: {},
 });
