@@ -15,6 +15,9 @@
                 <div class="p-4 text-lg">
                     {{ props.description }}
                 </div>
+                <div class="text-2xl" v-if="props.url">
+                    {{ props.url }}
+                </div>
             </div>
         </div>
     </NuxtLink>
@@ -30,6 +33,9 @@ const props = defineProps({
         type: String,
     },
     description: {
+        type: String,
+    },
+    url: {
         type: String,
     },
     image: {

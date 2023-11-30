@@ -1,10 +1,5 @@
 <template>
     <div class="flex flex-col">
-        <div class="text-2xl w-full p-4 sticky top-0 bg-slate-100 xl:mb-10 border-b">
-            <div class="text-slate-800 hover:text-blue-600">
-                <!-- <NuxtLink to="/projects">Projects</NuxtLink> -->
-            </div>
-        </div>
         <span class="container mx-auto p-4">
             <div class="flex flex-col space-y-4 text-base md:text-xl">
                 <div class="text-2xl md:text-4xl">Marco La Rosa, PhD</div>
@@ -46,6 +41,7 @@
                     title="Describo"
                     description="An ecosystem of tools, software components and services
 to create and manage Research Object Crates. "
+                    url="https://describo.github.io"
                     image="/describo/describo1.png"
                 >
                 </Feature>
