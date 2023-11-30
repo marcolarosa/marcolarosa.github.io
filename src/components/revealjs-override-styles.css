@@ -1,0 +1,13 @@
+.reveal img {
+    height: calc(100vh * 0.5) !important;
+    max-height:  700px;
+    margin: auto;
+}
+
+.scroll-page-content {
+    @apply bg-slate-300;
+}
+
+.slide-background-content {
+    @apply bg-slate-100;
+}

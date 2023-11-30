@@ -40,26 +40,14 @@
                 </p>
             </div>
             <div class="h-10"></div>
-            <div class="columns-1 gap-2 md:columns-2 md:gap-2 xl:columns-3 xl:gap-2">
+            <div class="flex flex-col space-y-10">
                 <Feature
                     to="/projects/describo"
-                    title="describo"
+                    title="Describo"
                     description="An ecosystem of tools, software components and services
 to create and manage Research Object Crates. "
+                    image="/describo/describo1.png"
                 >
-                    <template #image>
-                        <NuxtImg src="/describo/describo1.png" />
-                    </template>
-                </Feature>
-
-                <Feature
-                    to="/projects/olacvis"
-                    title="OLAC Visualisation"
-                    description="A visualisation of the language data at the Open Language Archives."
-                >
-                    <template #image>
-                        <NuxtImg src="/olacvis/olacvis1.png" />
-                    </template>
                 </Feature>
 
                 <Feature
@@ -68,10 +56,8 @@ to create and manage Research Object Crates. "
                     description="Nyingarn makes manuscript sources of Australian Indigenous languages
 available as searchable and reusable text documents
 to support language revitalisation."
+                    image="/nyingarn/workspace1.png"
                 >
-                    <template #image>
-                        <NuxtImg src="/nyingarn/workspace1.png" />
-                    </template>
                 </Feature>
 
                 <Feature
@@ -79,40 +65,41 @@ to support language revitalisation."
                     title="50words.online"
                     description="A resource for schools and educational organisations
                     to learn 50 words in their local languages."
+                    image="/50words/50words1.png"
                 >
-                    <template #image>
-                        <NuxtImg src="/50words/50words1.png" />
-                    </template>
                 </Feature>
 
                 <Feature
                     to="/projects/modpdsc"
                     title="Modern PARADISEC"
                     description="Modern PARADISEC is a demonstrator showing what a interface based on RO-Crates could do."
+                    image="/modpdsc/modpdsc1.png"
                 >
-                    <template #image>
-                        <NuxtImg src="/modpdsc/modpdsc1.png" />
-                    </template>
                 </Feature>
+                <div class="flex flex-col md:flex-row">
+                    <Feature
+                        to="/projects/olacvis"
+                        title="OLAC Visualisation"
+                        description="A visualisation of the language data at the Open Language Archives."
+                        image="/olacvis/olacvis1.png"
+                    >
+                    </Feature>
+
+                    <Feature
+                        to="/projects/pi"
+                        title="Raspberry Pi and Data Loader"
+                        description="An application to load catalog data onto Raspberry Pi's for repatriation."
+                        image="/pi/pi1.png"
+                    >
+                    </Feature>
+                </div>
 
                 <Feature
                     to="/projects/code"
                     title="Code Repositories"
                     description="Uncategorised open source codes"
+                    image="/code/code1.png"
                 >
-                    <template #image>
-                        <NuxtImg src="/code/code1.png" />
-                    </template>
-                </Feature>
-
-                <Feature
-                    to="/projects/pi"
-                    title="Raspberry Pi and Data Loader"
-                    description="An application to load catalog data onto Raspberry Pi's for repatriation."
-                >
-                    <template #image>
-                        <NuxtImg src="/pi/pi1.png" />
-                    </template>
                 </Feature>
             </div>
         </span>
@@ -121,6 +108,9 @@ to support language revitalisation."
 
 <script setup>
 import Feature from "../src/components/Feature.vue";
+import "@fortawesome/fontawesome-free/js/all";
+import { config } from "@fortawesome/fontawesome-svg-core";
+config.autoReplaceSvg = "nest";
 </script>
 
 <style></style>
