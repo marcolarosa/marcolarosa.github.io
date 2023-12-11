@@ -43,6 +43,22 @@
         </card>
         <card>
             <template #text>
+                <p class="text-2xl">Technology:</p>
+                <ul class="list-disc">
+                    <li>
+                        The Describo component is written in VueJS and it can be embedded in other
+                        VueJS environments (and react environments via the react plugin).
+                    </li>
+                    <li>
+                        Describo Desktop is an ElectronJS application that contains a VueJS SPA and
+                        embeds the Describo component for rendering and handling the RO Crate.
+                    </li>
+                    <li>Describo Web is also a VueJS that uses the Describo Component.</li>
+                </ul>
+            </template>
+        </card>
+        <card>
+            <template #text>
                 <div class="flex flex-col place-content-center">
                     The screenshot show the Describo cross platform desktop application with full
                     file management capability, domain profile creation and much more.<br />

@@ -68,9 +68,34 @@
             <template #text>
                 <p>
                     I designed the workspace and repository and was the lead developer for the
-                    project. Working with me was another team member who developed the core XML
-                    processing capability.
+                    project. Working with me was
+                    <linker to="https://www.linkedin.com/in/conal-tuohy-168ba59/">
+                        Conal Tuohy
+                    </linker>
+                    who developed the core XML processing capability.
                 </p>
+            </template>
+        </card>
+
+        <card>
+            <template #text>
+                <p class="text-2xl">Technology:</p>
+                <ul class="list-disc">
+                    <li>
+                        The Nyingarn Workspace and Repository applications are VueJS SPAs with a
+                        shared NodeJS/Fastify API backend.
+                    </li>
+                    <li>
+                        The API container is designed to be horizontally scalable by submitting
+                        processing jobs to a Rabbit Message Queue.
+                    </li>
+                    <li>
+                        The Task runner container is also a NodeJS application that connects to the
+                        queue directly and processes jobs sequentially in a FIFO fashion. This
+                        container is also horizontally scalable.
+                    </li>
+                    <li><linker to="https://github.com/CoEDL/nyingarn-workspace"></linker></li>
+                </ul>
             </template>
         </card>
 
@@ -111,37 +136,31 @@
                 <img src="/nyingarn/workspace4.png" class="object-contain" />
             </template>
         </card>
-
         <card>
             <template #image>
                 <img src="/nyingarn/workspace5.png" class="object-contain" />
             </template>
         </card>
-
         <card>
             <template #image>
                 <img src="/nyingarn/workspace6.png" class="object-contain" />
             </template>
         </card>
-
         <card>
             <template #image>
                 <img src="/nyingarn/workspace7.png" class="object-contain" />
             </template>
         </card>
-
         <card>
             <template #image>
                 <img src="/nyingarn/workspace8.png" class="object-contain" />
             </template>
         </card>
-
         <card>
             <template #image>
                 <img src="/nyingarn/workspace9.png" class="object-contain" />
             </template>
         </card>
-
         <card>
             <template #text>Nyingarn Platform Repository</template>
         </card>
@@ -153,8 +172,9 @@
         <card>
             <template #image>
                 <img src="/nyingarn/repository3.png" class="object-contain" />
-            </template> </card
-        ><card>
+            </template>
+        </card>
+        <card>
             <template #image>
                 <img src="/nyingarn/repository4.png" class="object-contain" />
             </template>
