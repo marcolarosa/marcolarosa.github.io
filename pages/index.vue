@@ -4,37 +4,44 @@
             <div class="flex flex-col space-y-4 text-base md:text-xl">
                 <div class="text-2xl md:text-4xl">Marco La Rosa, PhD</div>
                 <div
-                    class="flex flex-col space-y-2 md:space-y-4 text-lg md:text-3xl text-blue-600 py-4 md:py-10"
+                    class="flex flex-col space-y-2 md:space-y-4 text-lg md:text-3xl text-slate-700 py-4 md:py-4"
                 >
                     <div>Full Stack Software Developer</div>
                     <div>Dev/Ops specialist</div>
                     <div>Scientist</div>
                 </div>
                 <p>
+                    Throughout my career I have been relied upon to architect and create scalable,
+                    managable and performant systems. Meticulous, analytical and highly adaptable, I
+                    am able to quickly develop expertise in new fields and technologies. I take a
+                    holistic approach to my work to ensure that a solution is developed using the
+                    best available technology for that problem.
+                </p>
+                <!-- <p>
                     Throughout my career I have been relied upon to architect and create manageable
                     and performant systems ranging from High Performance Computing clusters to
                     analytical tools and web applications for linguistics researchers; from scale
                     out web infrastructures for archivists to the HuNI virtual laboratory from
                     NeCTAR; metadata description tools like Describo to workflow and repository
                     environments like the Nyingarn Platform.
-                </p>
-                <p>
+                </p> -->
+                <!-- <p>
                     I am skilled at developing secure by design infrastructure and services with
                     significant expertise preparing these systems to house PROTECTED data; as
                     certified by the Defence Signals Directorate.
-                </p>
-                <p>
+                </p> -->
+                <!-- <p>
                     Meticulous, analytical and highly adaptable, I am able to quickly develop
                     expertise in new fields and technologies. I take a holistic approach to my work
                     to ensure that a solution is developed using the best available technology for
                     that problem.
-                </p>
-                <p>
+                </p> -->
+                <!-- <p>
                     I work effectively individually or in a team as a leader, mentor and team
                     member.
-                </p>
+                </p> -->
             </div>
-            <div class="h-10"></div>
+            <div class="text-3xl my-10">Portfolio of Work</div>
             <div class="flex flex-col space-y-10">
                 <Feature
                     to="/projects/describo"
