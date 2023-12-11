@@ -12,8 +12,8 @@
                 </div>
                 <p>
                     Throughout my career I have been relied upon to architect and create scalable,
-                    managable and performant systems. Meticulous, analytical and highly adaptable, I
-                    am able to quickly develop expertise in new fields and technologies. I take a
+                    manageable and performant systems. Meticulous, analytical and highly adaptable,
+                    I am able to quickly develop expertise in new fields and technologies. I take a
                     holistic approach to my work to ensure that a solution is developed using the
                     best available technology for that problem.
                 </p>
