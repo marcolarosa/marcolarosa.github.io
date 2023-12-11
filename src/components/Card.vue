@@ -1,6 +1,7 @@
 <template>
     <div class="flex flex-col md:flex-row md:space-x-2 p-8 bg-slate-200 rounded">
         <div
+            v-if="slots.text"
             class="flex flex-col place-content-center"
             :class="{
                 'w-full': !slots.image,
@@ -9,7 +10,11 @@
         >
             <slot name="text"></slot>
         </div>
-        <div class="flex place-content-centerw-2/3 lg:w-3/5 xl:w-4/6" v-if="slots.image">
+        <div
+            v-if="slots.image"
+            class="flex place-content-center"
+            :class="{ 'w-full': !slots.text, 'w-2/3 lg:w-3/5 xl:w-4/6': slots.text }"
+        >
             <slot name="image"></slot>
         </div>
     </div>
