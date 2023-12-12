@@ -20,7 +20,6 @@
         <card>
             <template #text>
                 <div class="flex flex-col space-y-2">
-                    <p>I designed and built the 50words application.</p>
                     <ul class="list-disc">
                         <li>
                             The application is a VueJS SPA with a Python data processing backend.

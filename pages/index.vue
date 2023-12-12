@@ -41,10 +41,10 @@
                     member.
                 </p> -->
             </div>
-            <div class="text-3xl my-10">Portfolio of Work</div>
-            <div class="flex flex-col space-y-10">
+            <div class="text-3xl my-10 text-center">Portfolio</div>
+            <div class="flex flex-col space-y-1">
                 <Feature
-                    to="/projects/describo"
+                    to="/portfolio/describo"
                     title="Describo"
                     description="An ecosystem of tools, software components and services
 to create and manage Research Object Crates. "
@@ -54,7 +54,7 @@ to create and manage Research Object Crates. "
                 </Feature>
 
                 <Feature
-                    to="/projects/nyingarn"
+                    to="/portfolio/nyingarn"
                     title="Nyingarn Platform"
                     description="Nyingarn makes manuscript sources of Australian Indigenous languages
 available as searchable and reusable text documents
@@ -64,7 +64,7 @@ to support language revitalisation."
                 </Feature>
 
                 <Feature
-                    to="/projects/50words"
+                    to="/portfolio/50words"
                     title="50words.online"
                     description="A resource for schools and educational organisations
                     to learn 50 words in their local languages."
@@ -73,13 +73,13 @@ to support language revitalisation."
                 </Feature>
 
                 <Feature
-                    to="/projects/modpdsc"
+                    to="/portfolio/modpdsc"
                     title="Modern PARADISEC"
                     description="Modern PARADISEC is a demonstrator showing what a interface based on RO-Crates could do."
                     image="/modpdsc/modpdsc1.png"
                 >
                 </Feature>
-                <div class="flex flex-col md:flex-row">
+                <div class="flex flex-col space-y-1 md:flex-row md:space-y-0">
                     <Feature
                         to="/projects/olacvis"
                         title="OLAC Visualisation"
@@ -89,7 +89,7 @@ to support language revitalisation."
                     </Feature>
 
                     <Feature
-                        to="/projects/pi"
+                        to="/portfolio/pi"
                         title="Raspberry Pi and Data Loader"
                         description="An application to load catalog data onto Raspberry Pi's for repatriation."
                         image="/pi/pi1.png"
@@ -98,7 +98,7 @@ to support language revitalisation."
                 </div>
 
                 <Feature
-                    to="/projects/code"
+                    to="/portfolio/code"
                     title="Code Repositories"
                     description="Uncategorised open source codes"
                     image="/code/code1.png"

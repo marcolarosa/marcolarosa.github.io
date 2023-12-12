@@ -75,7 +75,7 @@
 
         <card>
             <template #text>
-                <p>
+                <p class="text-center">
                     I designed the workspace and repository and was the lead developer for the
                     project. Working with me was
                     <linker to="https://www.linkedin.com/in/conal-tuohy-168ba59/">
