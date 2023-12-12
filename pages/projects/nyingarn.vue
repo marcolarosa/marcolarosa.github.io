@@ -2,8 +2,17 @@
     <stack>
         <card>
             <template #text>
-                <div class="text-center text-2xl">
-                    <linker to="https://nyingarn.net">Nyingarn Platform</linker>
+                <div class="text-center text-3xl my-10">
+                    Nyingarn Platform
+                    <img
+                        src="/nyingarn/nyingarn-logo.png"
+                        class="inline w-32 object-contain p-4 rounded-xl"
+                        style="background-color: #4a6163"
+                    />
+                </div>
+                <div class="flex flex-col space-y-2 w-full place-content-center">
+                    <linker class="text-center" to="https://workspace.nyingarn.net"></linker>
+                    <linker class="text-center" to="https://repository.nyingarn.net"></linker>
                 </div>
             </template>
         </card>
@@ -114,7 +123,7 @@
                 </div>
             </template>
             <template #image>
-                <img src="/nyingarn/nyingarn-architecture.png" class="object-contain" />
+                <img src="/nyingarn/nyingarn-architecture.svg" class="object-contain" />
             </template>
         </card>
 
@@ -122,41 +131,66 @@
             <template #text>Nyingarn Platform Workspace</template>
         </card>
         <card>
+            <template #text>
+                The Login screen. Users can log in using the Australian Access Federation (AAF),
+                Google or just by getting a one time password to their email address (in all cases,
+                provided that they are permitted users of the application).
+            </template>
             <template #image>
                 <img src="/nyingarn/workspace2.png" class="object-contain" />
             </template>
         </card>
         <card>
-            <template #image>
-                <img src="/nyingarn/workspace3.png" class="object-contain" />
+            <template #text>
+                The user dashboard. In it we can see the items and collections the user can access
+                along with, in this case, the administrator controls the user has access to.
             </template>
-        </card>
-        <card>
             <template #image>
                 <img src="/nyingarn/workspace4.png" class="object-contain" />
             </template>
         </card>
         <card>
+            <template #text>
+                Item view showing a manuscript with two pages. We can see the thumbnail of the page
+                and status indicators for whether the thumbnail has been generated; webformats
+                created; OCR completed and TEI exists.
+            </template>
+            <template #image>
+                <img src="/nyingarn/workspace3.png" class="object-contain" />
+            </template>
+        </card>
+        <card>
+            <template #text
+                >Page view showing the image on the left (with full zoom and pan controls) and the
+                TEI transcription editor on the right.
+            </template>
             <template #image>
                 <img src="/nyingarn/workspace5.png" class="object-contain" />
             </template>
         </card>
         <card>
+            <template #text> The metadata tab with the embedded Describo component.</template>
             <template #image>
                 <img src="/nyingarn/workspace6.png" class="object-contain" />
             </template>
         </card>
         <card>
+            <template #text>
+                The data upload tab. Powered by:
+                <linker to="https://uppy.io/"></linker> <linker to="https://tus.io/"></linker>
+            </template>
             <template #image>
                 <img src="/nyingarn/workspace7.png" class="object-contain" />
             </template>
         </card>
         <card>
+            <template #text> The publish tab.</template>
             <template #image>
                 <img src="/nyingarn/workspace8.png" class="object-contain" />
             </template>
         </card>
         <card>
+            <template #text> The item administration view with user access controls.</template>
             <template #image>
                 <img src="/nyingarn/workspace9.png" class="object-contain" />
             </template>
@@ -165,21 +199,37 @@
             <template #text>Nyingarn Platform Repository</template>
         </card>
         <card>
+            <template #text
+                >The repository landing page. Users can discover content by navigating around the
+                map; searching by language; and searching by manuscript content. Or a combination of
+                all three.
+            </template>
             <template #image>
                 <img src="/nyingarn/repository2.png" class="object-contain" />
             </template>
         </card>
         <card>
+            <template #text>
+                A manuscript view. The metadata is shown at the top and the pages in a grid view at
+                the bottom.
+            </template>
             <template #image>
                 <img src="/nyingarn/repository3.png" class="object-contain" />
             </template>
         </card>
         <card>
+            <template #text>
+                A manuscript page with the image on the left (zoom and pan controls) and the
+                transcription on the right.
+            </template>
             <template #image>
                 <img src="/nyingarn/repository4.png" class="object-contain" />
             </template>
         </card>
         <card>
+            <template #text
+                >The detailed item metadata displayed by the Describo component in readonly mode.
+            </template>
             <template #image>
                 <img src="/nyingarn/repository5.png" class="object-contain" />
             </template>

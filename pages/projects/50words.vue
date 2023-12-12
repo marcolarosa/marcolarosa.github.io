@@ -2,9 +2,8 @@
     <stack>
         <card>
             <template #text>
-                <div class="text-center text-2xl">
-                    <linker to="https://50words.online">50words</linker>
-                </div>
+                <div class="text-center text-3xl my-10">50 Words Project</div>
+                <linker class="text-center" to="https://50words.online"></linker>
             </template>
         </card>
 

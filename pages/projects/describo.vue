@@ -2,9 +2,14 @@
     <stack>
         <card>
             <template #text>
-                <div class="text-center text-2xl">
-                    <linker to="https://describo.github.io">Describo</linker>
+                <div class="text-center text-3xl my-10">
+                    <img
+                        src="/describo/describo-logo.png"
+                        class="inline h-40 object-contain rounded-xl"
+                        style="background-color: #e2e8f0"
+                    />
                 </div>
+                <linker class="text-center" to="https://describo.github.io"></linker>
             </template>
         </card>
         <div class="grid grid-cols-1 md:grid-cols-2 gap-2">
@@ -60,7 +65,7 @@
         <card>
             <template #text>
                 <div class="flex flex-col place-content-center">
-                    The screenshot show the Describo cross platform desktop application with full
+                    The screenshot shows the Describo cross platform desktop application with full
                     file management capability, domain profile creation and much more.<br />
                     <linker to="https://describo.github.io/#/desktop"></linker>
                 </div>
@@ -70,7 +75,7 @@
             </template>
         </card>
 
-        <card>
+        <!-- <card>
             <template #text>
                 <div class="flex flex-col place-content-center space-y-4">
                     <div>
@@ -102,13 +107,13 @@
                     </div>
                 </div>
             </template>
-        </card>
+        </card> -->
 
         <div class="grid grid-cols-1 md:grid-cols-2 gap-2">
             <card>
                 <template #text>
                     The web based version for basic metadata edits.<br />
-                    <linker to="https://describo.github.io/#/web"></linker>
+                    <linker class="text-base" to="https://describo.github.io/#/web"></linker>
                 </template>
                 <template #image>
                     <img src="/describo/describo1.png" />
@@ -123,7 +128,7 @@
                     </p>
                 </template>
                 <template #image>
-                    <img src="/describo/describo3.png" />
+                    <img class="text-base" src="/describo/describo3.png" />
                 </template>
             </card>
         </div>
