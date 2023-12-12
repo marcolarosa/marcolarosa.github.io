@@ -48,14 +48,13 @@
                     title="Describo"
                     description="An ecosystem of tools, software components and services
 to create and manage Research Object Crates. "
-                    url="https://describo.github.io"
                     image="/describo/describo1.png"
                 >
                 </Feature>
 
                 <Feature
                     to="/portfolio/nyingarn"
-                    title="Nyingarn Platform"
+                    title="Nyingarn Platform Workspace and Repository"
                     description="Nyingarn makes manuscript sources of Australian Indigenous languages
 available as searchable and reusable text documents
 to support language revitalisation."
@@ -65,7 +64,7 @@ to support language revitalisation."
 
                 <Feature
                     to="/portfolio/50words"
-                    title="50words.online"
+                    title="50 Words Project"
                     description="A resource for schools and educational organisations
                     to learn 50 words in their local languages."
                     image="/50words/50words1.png"
@@ -81,7 +80,7 @@ to support language revitalisation."
                 </Feature>
                 <div class="flex flex-col space-y-1 md:flex-row md:space-y-0">
                     <Feature
-                        to="/projects/olacvis"
+                        to="/portfolio/olacvis"
                         title="OLAC Visualisation"
                         description="A visualisation of the language data at the Open Language Archives."
                         image="/olacvis/olacvis1.png"
