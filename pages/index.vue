@@ -21,6 +21,7 @@
                     Following is a selection of projects that I've worked on over the last few
                     years.
                 </p>
+
                 <!-- <p>
                     Throughout my career I have been relied upon to architect and create manageable
                     and performant systems ranging from High Performance Computing clusters to
