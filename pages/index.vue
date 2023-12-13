@@ -14,8 +14,12 @@
                     Throughout my career I have been relied upon to architect and create scalable,
                     manageable and performant systems. Meticulous, analytical and highly adaptable,
                     I am able to quickly develop expertise in new fields and technologies. I take a
-                    holistic approach to my work to ensure that a solution is developed using the
-                    best available technology for that problem.
+                    holistic approach to my work in order to ensure that a solution is developed
+                    using the best available technology for that problem.
+                </p>
+                <p>
+                    Following is a selection of projects that I've worked on over the last few
+                    years.
                 </p>
                 <!-- <p>
                     Throughout my career I have been relied upon to architect and create manageable
@@ -41,7 +45,8 @@
                     member.
                 </p> -->
             </div>
-            <div class="text-3xl my-10 text-center">Portfolio</div>
+            <!-- <div class="text-3xl my-10 text-center">Portfolio</div> -->
+            <div class="border border-slate-400 my-8"></div>
             <div class="flex flex-col space-y-1">
                 <Feature
                     to="/portfolio/describo"
@@ -78,32 +83,30 @@ to support language revitalisation."
                     image="/modpdsc/modpdsc1.png"
                 >
                 </Feature>
-                <div class="flex flex-col space-y-1 md:flex-row md:space-y-0">
-                    <Feature
-                        to="/portfolio/olacvis"
-                        title="OLAC Visualisation"
-                        description="A visualisation of the language data at the Open Language Archives."
-                        image="/olacvis/olacvis1.png"
-                    >
-                    </Feature>
-
-                    <Feature
-                        to="/portfolio/pi"
-                        title="Raspberry Pi and Data Loader"
-                        description="An application to load catalog data onto Raspberry Pi's for repatriation."
-                        image="/pi/pi1.png"
-                    >
-                    </Feature>
-                </div>
+                <Feature
+                    to="/portfolio/olacvis"
+                    title="OLAC Visualisation"
+                    description="A visualisation of the language data at the Open Language Archives."
+                    image="/olacvis/olacvis1.png"
+                >
+                </Feature>
 
                 <Feature
-                    to="/portfolio/code"
-                    title="Code Repositories"
-                    description="Uncategorised open source codes"
-                    image="/code/code1.png"
+                    to="/portfolio/pi"
+                    title="Raspberry Pi and Data Loader"
+                    description="An application to load catalog data onto Raspberry Pi's for repatriation."
+                    image="/pi/pi1.png"
                 >
                 </Feature>
             </div>
+
+            <Feature
+                to="/portfolio/code"
+                title="Code Repositories"
+                description="Uncategorised open source codes"
+                image="/code/code1.png"
+            >
+            </Feature>
         </span>
     </div>
 </template>

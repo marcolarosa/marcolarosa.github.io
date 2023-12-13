@@ -19,6 +19,7 @@
 
         <card>
             <template #text>
+                <p class="text-2xl">Technology:</p>
                 <div class="flex flex-col space-y-2">
                     <ul class="list-disc">
                         <li>
