@@ -48,6 +48,10 @@ export default defineConfig({
     themeConfig: {
         // https://vitepress.dev/reference/default-theme-config
         logo: "./images/logos/describo-logo-small.webp",
+        socialLinks: [
+            { icon: "github", link: "https://github.com/marcolarosa" },
+            { icon: "linkedin", link: "https://www.linkedin.com/in/marcolarosa/" },
+        ],
         lastUpdated: {
             text: "Updated at",
             formatOptions: {
