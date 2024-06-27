@@ -25,14 +25,14 @@ comprises a few parts, including:
 -   The final component is the tooling to walk the OCFL filesystem and populate the elastic search
     index. [https://github.com/CoEDL/ocfl-tools](https://github.com/CoEDL/ocfl-tools)
 
-<Image src="/public/modpdsc/modpdsc1.png" />
-<Image src="/public/modpdsc/modpdsc2.png" />
-<Image src="/public/modpdsc/modpdsc3.png" />
-<Image src="/public/modpdsc/modpdsc4.png" />
-<Image src="/public/modpdsc/modpdsc5.png" />
-<Image src="/public/modpdsc/modpdsc6.png" />
-<Image src="/public/modpdsc/modpdsc7.png" />
-<Image src="/public/modpdsc/modpdsc8.png" />
-<Image src="/public/modpdsc/modpdsc9.png" />
-<Image src="/public/modpdsc/modpdsc10.png" />
-<Image src="/public/modpdsc/modpdsc11.png" />
+<Image src="/modpdsc/modpdsc1.png" />
+<Image src="/modpdsc/modpdsc2.png" />
+<Image src="/modpdsc/modpdsc3.png" />
+<Image src="/modpdsc/modpdsc4.png" />
+<Image src="/modpdsc/modpdsc5.png" />
+<Image src="/modpdsc/modpdsc6.png" />
+<Image src="/modpdsc/modpdsc7.png" />
+<Image src="/modpdsc/modpdsc8.png" />
+<Image src="/modpdsc/modpdsc9.png" />
+<Image src="/modpdsc/modpdsc10.png" />
+<Image src="/modpdsc/modpdsc11.png" />

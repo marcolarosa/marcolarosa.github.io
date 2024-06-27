@@ -23,11 +23,11 @@ website.
     it needs as it needs it. And there's no API needed.
 -   [https://github.com/CoEDL/olac-visualisation-v2](https://github.com/CoEDL/olac-visualisation-v2)
 
-<Image src="/public/olacvis/olacvis1.png" />
-<Image src="/public/olacvis/olacvis2.png" />
-<Image src="/public/olacvis/olacvis3.png" />
-<Image src="/public/olacvis/olacvis4.png" />
-<Image src="/public/olacvis/olacvis5.png" />
-<Image src="/public/olacvis/olacvis6.png" />
-<Image src="/public/olacvis/olacvis7.png" />
-<Image src="/public/olacvis/olacvis8.png" />
+<Image src="/olacvis/olacvis1.png" />
+<Image src="/olacvis/olacvis2.png" />
+<Image src="/olacvis/olacvis3.png" />
+<Image src="/olacvis/olacvis4.png" />
+<Image src="/olacvis/olacvis5.png" />
+<Image src="/olacvis/olacvis6.png" />
+<Image src="/olacvis/olacvis7.png" />
+<Image src="/olacvis/olacvis8.png" />

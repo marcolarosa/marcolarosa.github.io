@@ -38,7 +38,7 @@ layout: home
     </div>
   </template>
   <template #content>
-    <Image src="/public/describo/desktop4.webp" />
+    <Image src="/describo/desktop4.webp" />
   </template>
 </InfoPanel>
 
@@ -55,7 +55,7 @@ layout: home
     </div>
   </template>
   <template #content>
-    <Image src="/public/nyingarn/workspace1.png" />
+    <Image src="/nyingarn/workspace1.png" />
   </template>
 </InfoPanel>
 
@@ -70,7 +70,7 @@ layout: home
     </div>
   </template>
   <template #content>
-    <Image src="/public/50words/50words1.png" />
+    <Image src="/50words/50words1.png" />
   </template>
 </InfoPanel>
 
@@ -85,7 +85,7 @@ layout: home
     </div>
   </template>
   <template #content>
-    <Image src="/public/modpdsc/modpdsc1.png" />
+    <Image src="/modpdsc/modpdsc1.png" />
   </template>
 </InfoPanel>
 
@@ -100,7 +100,7 @@ layout: home
     </div>
   </template>
   <template #content>
-    <Image src="/public/olacvis/olacvis1.png" />
+    <Image src="/olacvis/olacvis1.png" />
   </template>
 </InfoPanel>
 

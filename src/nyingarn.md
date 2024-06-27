@@ -54,15 +54,15 @@ The repository enables user to:
     <Image src="/public/nyingarn/nyingarn-architecture.svg" class="w-full" />
   </template>
 </InfoPanel>
-<Image src="/public/nyingarn/workspace2.png" />
-<Image src="/public/nyingarn/workspace1.png" />
-<Image src="/public/nyingarn/workspace4.png" />
-<Image src="/public/nyingarn/workspace3.png" />
-<Image src="/public/nyingarn/workspace5.png" />
-<Image src="/public/nyingarn/workspace6.png" />
-<Image src="/public/nyingarn/workspace7.png" />
-<Image src="/public/nyingarn/workspace8.png" />
-<Image src="/public/nyingarn/repository2.png" />
-<Image src="/public/nyingarn/repository3.png" />
-<Image src="/public/nyingarn/repository4.png" />
-<Image src="/public/nyingarn/repository5.png" />
+<Image src="/nyingarn/workspace2.png" />
+<Image src="/nyingarn/workspace1.png" />
+<Image src="/nyingarn/workspace4.png" />
+<Image src="/nyingarn/workspace3.png" />
+<Image src="/nyingarn/workspace5.png" />
+<Image src="/nyingarn/workspace6.png" />
+<Image src="/nyingarn/workspace7.png" />
+<Image src="/nyingarn/workspace8.png" />
+<Image src="/nyingarn/repository2.png" />
+<Image src="/nyingarn/repository3.png" />
+<Image src="/nyingarn/repository4.png" />
+<Image src="/nyingarn/repository5.png" />

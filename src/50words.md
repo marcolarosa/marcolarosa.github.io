@@ -21,7 +21,7 @@ slowing down as number of languages increases.
 
 [https://github.com/coedl/50words.online](https://github.com/coedl/50words.online)
 
-<Image src="/public/50words/50words1.png" />
-<Image src="/public/50words/50words2.png" />
-<Image src="/public/50words/50words3.png" />
-<Image src="/public/50words/50words4.png" />
+<Image src="/50words/50words1.png" />
+<Image src="/50words/50words2.png" />
+<Image src="/50words/50words3.png" />
+<Image src="/50words/50words4.png" />
