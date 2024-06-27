@@ -1,15 +1,15 @@
 {
-    "name": "marcolarosa.github.io",
-    "private": true,
+    "name": "describo.github.io",
+    "version": "0.0.1",
     "type": "module",
     "author": {
         "name": "Marco La Rosa",
         "email": "m@lr.id.au"
     },
-    "homepage": "https://marcolarosa.github.io",
+    "homepage": "https://github.com/describo/describo.github.io",
     "repository": {
         "type": "git",
-        "url": "https://github.com/marcolarosa/marcolarosa.github.io.git"
+        "url": "https://github.com/describo/describo.github.io.git"
     },
     "scripts": {
         "develop": "vitepress dev",
@@ -23,7 +23,6 @@
         }
     },
     "devDependencies": {
-        "@tailwindcss/typography": "^0.5.13",
         "@types/node": "^20.14.1",
         "autoprefixer": "^10.4.19",
         "postcss": "^8.4.38",
