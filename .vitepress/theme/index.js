@@ -55,7 +55,6 @@ import DefaultTheme from "vitepress/dist/client/theme-default/index.js";
 // register components globally
 import { FontAwesomeIcon } from "@fortawesome/vue-fontawesome";
 import CardComponent from "../../src/vue-components/Card.vue";
-import FeatureComponent from "../../src/vue-components/Feature.vue";
 import ImageComponent from "../../src/vue-components/Image.vue";
 import InfoPanelComponent from "../../src/vue-components/InfoPanel.vue";
 import LinkComponent from "../../src/vue-components/Link.vue";
@@ -73,7 +72,6 @@ export default {
     ...DefaultTheme,
     enhanceApp({ app }) {
         app.component("Card", CardComponent);
-        app.component("Feature", FeatureComponent);
         app.component("Image", ImageComponent);
         app.component("InfoPanel", InfoPanelComponent);
         app.component("Link", LinkComponent);
