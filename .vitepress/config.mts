@@ -1,7 +1,8 @@
 import { defineConfig } from "vitepress";
 import { sidebar } from "../sidebar-menu.js";
 
-const GTAG = process.env.NODE_ENV !== "development" ? "undefined" : undefined;
+// const GTAG = process.env.NODE_ENV !== "development" ? undefined : undefined;
+const GTAG = undefined;
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
