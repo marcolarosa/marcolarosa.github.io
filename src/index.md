@@ -35,8 +35,9 @@ layout: home
         Describo creates a linked data index containing
         all of your efforts.
       </p>
-      <p>Describo is built on AWS and provides tools for data description, transcription and entity recognition / markup,
-        wdiscovery using
+      <p>Describo is built on AWS and provides tools for data description,
+        transcription, entity recognition / markup
+        and discovery using
         <Link link="https://www.anthropic.com/" target="_blank">GenerativeAI from Anthropic.</Link></p>
       <p>I am the project lead and core developer.</p>
       <p>

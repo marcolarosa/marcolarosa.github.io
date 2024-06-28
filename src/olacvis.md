@@ -12,13 +12,13 @@ website.
 
 ## Technology
 
--   The site is a combination of a backend data harvester written in JS and VueJS SPA.
+-   The site is a combination of a backend data harvester written in JS and a VueJS SPA.
 -   The harvester is run periodically (cron) and it starts by harvesting the area data files and
     then walking the links from there.
 -   All of the data on that site is in HTML pages so the harvester uses XPATH to select the content
     it wants.
 -   When it's done harvesting it creates a set of JSON index files that are then made available to
-    the webserver. Check it out in the next card.
+    the webserver.
 -   Then, mounting the repository into a known location of the webserver, the VueJS just loads what
     it needs as it needs it. And there's no API needed.
 -   [https://github.com/CoEDL/olac-visualisation-v2](https://github.com/CoEDL/olac-visualisation-v2)
