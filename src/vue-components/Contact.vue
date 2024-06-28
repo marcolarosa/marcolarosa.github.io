@@ -1,7 +1,8 @@
 <template>
     <div class="flex flex-col space-y-2">
         <div class="flex items-center text-base md:text-lg">
-            <FontAwesomeIcon :icon="faEnvelope"></FontAwesomeIcon>&nbsp;m@lr.id.au
+            <FontAwesomeIcon :icon="faEnvelope"></FontAwesomeIcon>
+            &nbsp;<a href="mailto:m@lr.id.au">m@lr.id.au</a>
         </div>
         <div class="flex items-center text-base md:text-lg">
             <FontAwesomeIcon :icon="faGithub"></FontAwesomeIcon>&nbsp;
