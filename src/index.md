@@ -2,19 +2,26 @@
 layout: home
 ---
 
-<div class="mt-16 text-2xl">Marco La Rosa, PhD</div>
-<div class="text-lg">Full Stack Software Developer</div>
-<div class="text-lg">Dev/Ops Specialist</div>
-<div class="text-lg">Scientist</div>
+<div class="flex flex-col space-y-4 lg:flex-row lg:space-y-0 my-10">
+  <div class="w-full lg:w-3/5">
+    <div class="text-2xl">Marco La Rosa, PhD</div>
+    <div class="text-lg">Full Stack Software Developer</div>
+    <div class="text-lg">Dev/Ops Specialist</div>
+    <div class="text-lg">Scientist</div>
+  </div>
+  <div class="w-full lg:w-2/5">
+    <Contact />
+  </div>
+</div>
 
-<div class="flex flex-col space-y-4 mb-20">
-  <p class="text-2xl">Throughout my career I have been relied upon to
+<div class="flex flex-col space-y-4 mb-10">
+  <p class="text-xl">Throughout my career I have been relied upon to
   architect and create scalable, manageable and performant systems.</p>
-  <p class="text-2xl">Meticulous,
+  <p class="text-xl">Meticulous,
   analytical and highly adaptable, I am able to quickly develop expertise in new fields
   and technologies. I take a holistic approach to my work in order to ensure that a
   solution is developed using the best available technology for that problem. </p>
-  <p class="text-2xl">Following is a sample of my work over the last few years.</p>
+  <p class="text-xl">Following is a sample of my work over the last few years.</p>
 </div>
 
 <InfoPanel class="mt-5">
@@ -105,16 +112,5 @@ layout: home
 </InfoPanel>
 
 <script setup>
-  import {
-    faRoute,
-    faDownload,
-    faCode,
-    faPersonChalkboard,
-    faUsers,
-    faStar,
-    faBookOpenReader,
-    faBook,
-    faFileLines
-  }  from "@fortawesome/free-solid-svg-icons";
-  import TagLine from "./vue-components/TagLine.vue";
+  import Contact from './vue-components/Contact.vue'
 </script>
